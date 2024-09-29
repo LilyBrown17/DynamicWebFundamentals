@@ -4,7 +4,7 @@ function changeTheme() {
 // The current value is conveniently found in themeSelector.value!
     var element = document.getElementById("content");
 
-    if (themeSelector.value = "dark") {
+    if (themeSelector.value === "dark") {
         element.classList.add("dark");
         document.getElementById("image").src = "byui-logo_white.png";
     }
