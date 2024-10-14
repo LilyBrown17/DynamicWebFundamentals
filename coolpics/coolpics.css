@@ -86,7 +86,30 @@ img {
 
 .hidden {
     display: grid;
- }
+}
+
+.viewer {
+    position: fixed;
+    top:25px;
+    left:25px;
+    bottom:25px;
+    right:25px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+.viewer img {
+    max-height: 100%;
+    display: grid;
+}
+
+.viewer button {
+    color: var(--text-light);
+    position: absolute; 
+    top: 40px; 
+    right: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
 
 @media screen and (max-width: 1000px) {
     .gallery {
@@ -101,6 +124,16 @@ img {
     }
     .hidden {
         display: none;
+    }
+    .viewer {
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+    }
+    .viewer button {
+        top: 15px; 
+        right: 15px;
     }
 }
 
