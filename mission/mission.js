@@ -1,4 +1,4 @@
-var themeSelector = document.querySelector(".theme-select");
+var themeSelector = document.querySelector(".change-theme");
 function changeTheme() {
 // check to see what the current value of our select is.
 // The current value is conveniently found in themeSelector.value!
