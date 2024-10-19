@@ -28,7 +28,7 @@ header h2 {
     display: flex;
     align-items: center;
     vertical-align: center;
- }
+}
 
 .nav {
     display: grid;
