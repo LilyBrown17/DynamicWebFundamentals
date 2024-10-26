@@ -45,6 +45,7 @@ a {
 h2 {
     color: var(--red-color);
     font-size: 2em;
+    line-height: 0px;
 }
 
 h4, p {
@@ -52,19 +53,44 @@ h4, p {
     color: var(--dark-color);
 }
 
+h4 {
+    font-size: 1.25em;
+    line-height: 0px;
+}
+
 main {
+    padding-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.25fr 0.025fr;
+    padding-bottom: 50px;
 }
 
 .review {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 2fr;
+    padding-bottom: 50px;
 }
 
 .info {
+    padding-right: 25px;
+    text-align: end;
+    line-height: 15px;
+    border-right: solid;
+    border-width: 2px;
+    border-color: var(--gold-color);
+}
+
+.book {
     padding-left: 25px;
-    padding-top: 15px;
+    padding-right: 25px;
+}
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .content {
@@ -74,10 +100,10 @@ main {
 
 .sort {
     display: grid;
-    justify-content: end;
-    justify-items: end;
     padding-right: 100px;
-    padding-top: 15px;
+    outline: solid;
+    outline-width: 2px;
+    outline-color: var(--gold-color);
 }
 
 .skiptocontent a {
