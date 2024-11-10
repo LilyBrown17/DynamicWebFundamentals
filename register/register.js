@@ -1,5 +1,3 @@
-import getParticipant from './register.mjs';
-
 var i = 1;
 
 function getParticipant(number) {
