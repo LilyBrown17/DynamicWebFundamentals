@@ -38,4 +38,4 @@ function getParticipant(number) {
         </section>`;
 } 
 
-export default getParticipant();
+export default getParticipant;
