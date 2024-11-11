@@ -8,14 +8,24 @@ function onAddButtonClick() {
 }
 
 add.addEventListener('click', onAddButtonClick);
+submitButton.addEventListener('click', submitForm);
 
 function submitForm(event) {
     event.preventDefault();
     // do the rest of the stuff
-    
-    //...
-    //
-    //element.classlist.add('hide')
+    let item = document.querySelector("[id^=adult_name]");
+    let name = item.value;
+    summary.insertAdjacentHTML('afterbegin', getSummary(name, i, totalFees()));
+    input_form.style.display = "none";
+}
+
+function getSummary(info, num, fees){
+    return `<legend>Summary</legend>
+    <ol>
+        <li>Primary Contact: ${info}</li>
+        <li>Number of Participants: $${num}</li>
+        <li>Total Fees: ${fees}</li>
+    </ol>`;
 }
 
 function totalFees() {
