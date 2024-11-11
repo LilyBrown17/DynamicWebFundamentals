@@ -80,6 +80,9 @@ input:hover::placeholder {
     color: red;
 }
 
+.hide { 
+    display: none; 
+}
 
 .columns {
     display: flex;
