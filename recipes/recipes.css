@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=family=Amatic+SC&display=swap");
+:root {
+--primary-color: #1B98E0;
+--secondary-color: #59c3c3;
+--text-dark: #333;
+--text-light: #ebebeb;
+--primary-font: Arial, Helvetica,sans-serif;
+--secondary-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+.social img {
+    width: 40px;
+    padding: 5px;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 35px;
+    font-family: var(--primary-font);
+}
+
+.recipe-name {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 2em;
+    line-height: 0px;
+}
+
+.search img {
+    width: 15.6px;
+    padding: 2px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.search-box {
+    width: 100px;
+}
+
+.title, .social, .search, .recipe-icons, footer {
+    display: flex;
+}
+
+.title img {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
+
+.title p {
+    font-size: 4em;
+    font-family: var(--secondary-font);
+    line-height: 0px;
+}
+
+.title {
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 35px;
+}
+
+.search {
+    justify-content: center;
+    align-items: center;  
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+header {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: var(--text-dark);
+    color: var(--text-dark);
+}
+
+.recipe {
+    display: flex;
+    border: solid;
+    border-radius: 5px;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.recipe-img {
+    padding: 15px;
+    align-items: center;
+}
+
+.tag p {
+    padding: 5px;
+    border: solid;
+}
+
+.recipe-tags {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 750px) {
+    .recipe {
+        flex-direction: column;
+    }
+}
