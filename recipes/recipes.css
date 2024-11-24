@@ -21,9 +21,16 @@ a {
     padding: 5px;
 }
 
+.recipe-name p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 footer {
     justify-content: space-between;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
 }
 
 main {
@@ -35,7 +42,6 @@ main {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     font-size: 2em;
-    line-height: 0px;
 }
 
 .search img {
@@ -111,9 +117,15 @@ header {
     border: solid;
 }
 
+.tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+}
+
 .recipe-tags {
     display: flex;
-    justify-content: flex-start;
 }
 
 @media screen and (max-width: 750px) {
