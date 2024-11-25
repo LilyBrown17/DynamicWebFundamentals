@@ -56,38 +56,37 @@ function recipeTemplate(recipe) {
 }
 
 function renderRecipes(recipeList) {
+    const main = document.querySelector('main');
+    main.innerHTML = ''
     recipeList.forEach((recipe) => {
-        const main = document.querySelector('main');
         main.insertAdjacentHTML('beforeend', recipeTemplate(recipe))
     });   
 }
+
+function filter(query) {
+	const filtered = recipes.filter(recipe => recipe.name.toLowerCase().includes(query) || recipe.tags.find((item) => item.toLowerCase().includes(query)))
+	// sort by name
+	const sorted = filtered.sort((a, b) => a.name.localeCompare(b.name))
+		return sorted
+}
+
+const search = document.querySelector('form')
+
+function searchHandler(e) {
+	e.preventDefault()
+    console.log('test')
+    let query = document.querySelector('input').value
+    query = query.toLowerCase()
+    const output = filter(query)
+    renderRecipes(output)
+}
+
+search.addEventListener('submit', searchHandler)
 
 function init() {
   const recipe = getRandomListEntry(recipes)
   renderRecipes([recipe]);
 }
+
 init();
 
-function filter(query) {
-	const filtered = recipes.filter(filterFunction)
-	// sort by name
-	const sorted = filtered.sort(sortFunction)
-		return sorted
-
-}
-
-function searchHandler(e) {
-	e.preventDefault()
-	// get the search input
-    query = ``
-    // convert the value in the input to lowercase
-    query = query.toLowerCase()
-    // use the filter function to filter our recipes
-    recipe.name.toLowerCase().includes(query) || recipe.tags.find((item) => item.toLowerCase().includes(query))
-
-    // render the filtered list
-
-}
-
-const recipe = getRandomListEntry(recipes);
-console.log(recipeTemplate(recipe));
