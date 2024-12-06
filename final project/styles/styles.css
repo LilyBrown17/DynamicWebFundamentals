@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Sriracha&display=swap');
+
+:root {
+  --primary-color: #085C44;
+  --secondary-color: #0CAC64;
+  --accent1-color: #F97D10;
+  --accent2-color: #663C00;
+
+  --heading-font: 'Lily Script One', 'Times New Roman', serif;
+  --paragraph-font: 'Sriracha', 'Comic Sans', sans-serif;
+
+  --headline-color-on-white: #085C44;  /* headlines on a white background */ 
+  --headline-color-on-color: #0CAC64; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #085C44; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #0CAC64; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #663C00;
+  --nav-link-color: #085C44;
+  --nav-background-color: #0CAC64;
+  --nav-hover-link-color: #F97D10;
+  --nav-hover-background-color: #085C44;
+}
