@@ -6,25 +6,29 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #085C44;
-  --secondary-color: #0CAC64;
-  --accent1-color: #F97D10;
-  --accent2-color: #663C00;
+  --primary-color: #004d39;
+  --secondary-color: #0f8164;
+  --tertiary-color: #1ab28b;
+  --accent1-color: #e68424;
+  --accent2-color: #f1592a;
+  --accent3-color: #4a2e15;
+  --accent4-color: #3b2313;
+  --background-color: #ffffff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Lily Script One', 'Times New Roman', serif;
   --paragraph-font: 'Sriracha', 'Comic Sans', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #085C44;  /* headlines on a white background */ 
-  --headline-color-on-color: #0CAC64; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #085C44; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #0CAC64; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #663C00;
-  --nav-link-color: #085C44;
-  --nav-background-color: #0CAC64;
-  --nav-hover-link-color: #F97D10;
-  --nav-hover-background-color: #085C44;
+  --headline-color-on-white: #004d39;  /* headlines on a white background */ 
+  --headline-color-on-color: #1ab28b; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0f8164; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #1ab28b; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #4a2e15;
+  --nav-link-color: #e68424;
+  --nav-background-color: #4a2e15;
+  --nav-hover-link-color: #ffffff;
+  --nav-hover-background-color: #4a2e15;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -69,7 +73,7 @@ header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
@@ -82,7 +86,7 @@ p {
   background-color: #999;
 }
 .colors td {
-  width: 25%;
+  width: 12.5%;
   height: 3em;
 }
 
@@ -92,11 +96,27 @@ p {
 .secondary {
   background-color: var(--secondary-color);
 }
+.tertiary {
+  background-color: var(--tertiary-color);
+}
 .accent1 {
   background-color: var(--accent1-color);
 }
 .accent2 {
   background-color: var(--accent2-color);
+}
+.accent3 {
+  background-color: var(--accent3-color);
+}
+.accent4 {
+  background-color: var(--accent4-color);
+}
+.background {
+  background-color: var(--background-color);
+}
+
+.paragraph {
+  font-family: var(--paragraph-font);
 }
 
 p.colored {
@@ -119,6 +139,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  font-family: var(--paragraph-font);
 }
 nav a:link,
 nav a:visited {
