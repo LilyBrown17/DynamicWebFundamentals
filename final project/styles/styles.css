@@ -53,12 +53,14 @@ nav{
   align-self: center;
 }
 
-
+.examples img {
+  width: 300px;
+}
 
 footer{
   background-color: #4a2e15;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;

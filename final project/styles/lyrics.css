@@ -20,26 +20,26 @@ body {
   padding: 0;
 }
 
-header{
+header {
   background-color: #4a2e15;
 }
-.title{
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 25px;
 }
-.title h1{
+.title h1 {
   color:#1ab28b;
   font-family: 'Lily Script One', 'Times New Roman', serif;
   font-size: 4em;
   line-height: 0%;
   padding-top: 5px;
 }
-nav a:hover{
+nav a:hover {
   color: white;
 }
-nav a{
+nav a {
   text-align: center;
   color: #e68424;
   text-decoration: none;
@@ -47,28 +47,58 @@ nav a{
   align-self: center;
   font-family: 'Sriracha', 'Comic Sans', sans-serif;
 }
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-self: center;
 }
 
+p {
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  color: #0f8164;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 1.1em;
+}
+h2 {
+  text-align: center;
+  color:#004d39;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 2.25em;
+  line-height: 0%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid img {
+  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  outline: solid;
+  outline-color: #f1592a;
+  outline-width: 5px;
+}
 
-
-footer{
+footer {
   background-color: #4a2e15;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-footer a{
+footer a {
   color: #e68424;
   text-decoration: none;
   font-family: 'Sriracha', 'Comic Sans', sans-serif;
 }
-footer a:hover{
+footer a:hover {
   color: white;
   text-decoration: none;
 }
