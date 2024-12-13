@@ -118,7 +118,7 @@ h2 {
   font-family: 'Sriracha', 'Comic Sans', sans-serif;
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   margin-top: 5px;
 } 
 h5 {
@@ -141,7 +141,7 @@ h4 {
   margin: 0;
   color: #1ab28b;
   font-family: 'Lily Script One', 'Times New Roman', serif;
-  font-size: 2.5em;
+  font-size: 2.75em;
   text-align: center;
 }
 .content a {
