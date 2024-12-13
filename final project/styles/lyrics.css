@@ -147,9 +147,6 @@ h4 {
 .content a {
   text-decoration: none;
 }
-.content a:hover {
-  text-decoration: underline;
-}
 
 footer {
   background-color: #3b2313;
