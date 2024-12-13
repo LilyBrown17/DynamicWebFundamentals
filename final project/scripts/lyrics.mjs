@@ -6,7 +6,7 @@ const lyrics = [
 		composer: 'Yoko Shimumora',
 		writer: 'BOOM! Fanfic-a-latta!',
 		text: 
-            `Goombas: Armies rise up to the field!
+            `<br>Goombas: Armies rise up to the field!
             <br>Fighting for our King, 
             <br>We will never yield!
             <br>
@@ -139,7 +139,7 @@ const lyrics = [
 		composer: 'Mr Squid Whiskers',
 		writer: 'Mr Squid Whiskers',
 		text: 
-            `So many memories flooding back to me there is
+            `<br>So many memories flooding back to me there is
             <br>Good and bad fun and sad so many things and now just
             <br>I can't believe no
             <br>How short life is oh
@@ -178,7 +178,7 @@ const lyrics = [
 		composer: 'Yoshito Sekigawa, Shoh Murakami, Yoshiaki Kimura, Hiroki Morishita, Fumihiro Isobe',
 		writer: 'Juno Songs',
 		text: 
-            `HEY LOOKIE HERE IT'S ME Y A P E
+            `<br>HEY LOOKIE HERE IT'S ME Y A P E
             <br>THE MOST POWERFUL OF ALL OFFICE SUPPLIES
             <br>
             <br>(Wait, what do you do?)
@@ -1007,7 +1007,8 @@ const lyrics = [
             <br>Leap into a time where red's only in the leaves that we see
             <br>If I had your eyes
             <br>
-            <br>Could there be a future where the mocking rays of the sun finally go away, and this August now undone
+            <br>Could there be a future where the mocking rays of the sun
+            <br>finally go away, and this August now undone
             <br>Looking at each other they could smile again “See you next year” and laughing then?
             <br>Where there was a gap inside the world I thought was a trap
             <br>Rain began to fall even though nothing could forecast it all

@@ -99,7 +99,6 @@ h2 {
   right:0px;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: 10;
-  overflow-y: scroll;
 }
 .viewer button {
   color: #ffffff;
@@ -117,7 +116,37 @@ h2 {
 .text {
   color: #0f8164;
   font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 5px;
 } 
+h5 {
+  color: #004d39;
+  font-family: 'Sriracha', 'Comic Sans', sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 0;
+  margin-bottom: 0;
+}
+.content {
+  background-color: #ffffff;
+  overflow-y: scroll;
+  width: 1000px;
+}
+h4 {
+  background-color: #4a2e15;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #1ab28b;
+  font-family: 'Lily Script One', 'Times New Roman', serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+.content a {
+  text-decoration: none;
+}
 
 footer {
   background-color: #3b2313;
