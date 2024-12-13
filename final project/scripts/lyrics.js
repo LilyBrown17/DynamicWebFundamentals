@@ -25,6 +25,8 @@ function lyricTemplate(lyric) {
 function openLyric(event) {
 	var image1 = event.target;
 	console.log(image1.id);
+
+    document.body.style.overflow = 'hidden'
 	
 	var image1_id = image1.id;
 	
@@ -43,4 +45,6 @@ function closeLyric() {
     if (viewer) {
         viewer.remove();
     }
+
+    document.body.style.overflow = 'auto'
 }

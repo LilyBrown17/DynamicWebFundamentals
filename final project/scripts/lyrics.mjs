@@ -394,7 +394,7 @@ const lyrics = [
 	},
 	{
 		id: 'unhappy',
-		link: '',
+		link: 'https://youtu.be/FqjD2YxH1PU',
 		title: 'Unhappy Refrain',
 		composer: 'wowaka',
 		writer: 'wowaka, BOOM! Fanfic-a-latta!',
