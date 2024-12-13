@@ -144,12 +144,13 @@ h4 {
   font-size: 2.75em;
   text-align: center;
 }
-h4:hover {
-  text-decoration: underline;
-  color: #e68424;
-}
 .content a {
   text-decoration: none;
+}
+.content a:hover {
+  text-decoration: underline;
+  color: #e68424;
+  background-color: #004d39;
 }
 
 footer {
